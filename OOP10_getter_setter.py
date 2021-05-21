@@ -30,22 +30,22 @@ class Hero:
         self.__armor = input
 
 #set si characternya
-sniper = Hero('sniper',100,10)
+budi = Hero('budi',100,10)
 
 #coba print info(name,health)
 print('merubah info')
-print(sniper.info)
+print(budi.info)
 #merubah nama karakter, karena nama tidak di privage bisa langsung aja
-sniper.name = 'andi'
-print(sniper.info)
+budi.name = 'andi'
+print(budi.info)
 
 #cek sebentar apakah ada perubahan?
 print('getter dan setter untuk armor: ')
-print(sniper.armor)
-print(sniper.__dict__)
+print(budi.armor)
+print(budi.__dict__)
 #merubah armor yang di private, lalu print
-sniper.armor = 50
-print(sniper.armor)
-print(sniper.__dict__)
+budi.armor = 50
+print(budi.armor)
+print(budi.__dict__)
 
 
